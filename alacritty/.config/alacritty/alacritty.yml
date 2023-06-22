@@ -1,0 +1,70 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator
+
+# Any items in the `env` entry below will be added as
+# environment variables. Some entries may override variables
+# set by alacritty it self.
+env:
+  TERM: xterm-256color
+
+# Defines the default width/height in number of columns/lines. If the
+# window manager does not support setting the width/height independently
+# (like dwm), this will only use the first value.
+window:
+  dimensions:
+    columns: 50
+    lines: 20
+  padding:
+    x: 10
+    y: 10
+  transparency: 0.8
+
+# Font configuration
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: "Source Code Pro"
+    style: Regular
+
+  # The bold font face
+  bold:
+    family: "Source Code Pro"
+    style: Bold
+
+  # The italic font face
+  italic:
+    family: "Source Code Pro"
+    style: Italic
+
+  size: 12.0
+
+# Specifying a `locale` will force the locale to a specific value on startup
+locale: en_US.UTF-8
+
+# Colors
+colors:
+  # Default colors
+  primary:
+    background: '0x282a36'
+    foreground: '0xf8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '0x282a36'
+    red:     '0xff5555'
+    green:   '0x50fa7b'
+    yellow:  '0xf1fa8c'
+    blue:    '0xbd93f9'
+    magenta: '0xff79c6'
+    cyan:    '0x8be9fd'
+    white:   '0xbfbfbf'
+
+  # Bright colors
+  bright:
+    black:   '0x282a36'
+    red:     '0xff6e67'
+    green:   '0x5af78e'
+    yellow:  '0xf4f99d'
+    blue:    '0xcaa9fa'
+    magenta: '0xff92d0'
+    cyan:    '0x9aedfe'
+    white:   '0xe6e6e6'
