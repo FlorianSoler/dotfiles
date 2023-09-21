@@ -37,7 +37,7 @@ exec --no-startup-id nm-applet
 
 #Custom exec
 
-exec --no-startup-id feh --bg-scale /home/eltaistos/Backgrounds/dolomites-mountain.jpg
+exec_always --no-startup-id feh --bg-scale /home/eltaistos/linuxbg.png 
 
 exec --no-startup-id picom -b
 
@@ -200,9 +200,9 @@ bar {
 
 bindsym $mod+shift+f exec firefox
 
-#Custom gaps
+border_radius 5
 
-default_border pixel 0
+default_border pixel 1
 smart_gaps on
 gaps inner 10
 gaps outer 10
